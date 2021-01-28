@@ -1,10 +1,9 @@
 # Knowledge Distillation for Model-Agnostic Meta-Learning
 PyTorch implementation of the paper:
 * **Title:** Knowledge Distillation for Model-Agnostic Meta-Learning
-* **Author:** <a href="https://remimz.github.io/" target="_blank">Min Zhang</a>, Donglin Wang, Sibo Gai
-* **Conference:** [<a href="http://ecai2020.eu/" target="_blank">24th European Conference on Artificial Intelligence (ECAI2020)</a>]
-* **More details:** [<a href="https://ecai2020.eu/papers/1264_paper.pdf" target="_blank">pdf</a>]
-
+* **Author:** [Min Zhang](https://remimz.github.io/){:target="_blank"}, Donglin Wang, Sibo Gai
+* **Conference:** [24th European Conference on Artificial Intelligence (ECAI2020)](http://ecai2020.eu/)
+* **More details:** [[pdf](https://ecai2020.eu/papers/1264_paper.pdf)]&[[homepage]()]
 ![PMAML-framwork](./docs/PMAML-framwork.png)
 
 #### Requirements
@@ -38,20 +37,21 @@ You can download datasets automatically by adding `--download` when running the 
 
 **CUB**:
 1. Create the dir PMAML/datasets/cub;
-2. Download `CUB-200-2011.tgz` from <a href="https://drive.google.com/file/d/1hbzc_P1FuxMkcabkgn9ZKinBwW683j45/view" target="_blank">here</a>, and put the archive into `PMAML/datasets/cub`;
+2. Download `CUB-200-2011.tgz` from [here](https://drive.google.com/file/d/1hbzc_P1FuxMkcabkgn9ZKinBwW683j45/view), and put the archive into `PMAML/datasets/cub`;
 3. Running the program with `--download`;
 
 ***mini*ImageNet:**
 1. Create the dir PMAML/datasets/miniimagenet;
-2. Download `miniimagenet.tgz` from <a href="https://drive.google.com/file/d/16V_ZlkW4SsnNDtnGmaBRq2OoPmUOc5mY/view" target="blank">here</a>, and put the archive into `PMAML/datasets/miniimagenet`;
+2. Download `miniimagenet.tgz` from [here](https://drive.google.com/file/d/16V_ZlkW4SsnNDtnGmaBRq2OoPmUOc5mY/view), and put the archive into `PMAML/datasets/miniimagenet`;
 3. Running the program with `--download`;
 
 **Omniglot:**
 1. Create the dir PMAML/datasets/omniglot;
-2. Download `omniglot.tgz` from <a href="https://drive.google.com/file/d/1INlOTyPtnCJgm0hBVvtRLu5a0itk8bjs/view" target="blank">here</a>, and put the archive into `PMAML/datasets/omniglot`;
+2. Download `omniglot.tgz` from [here](https://drive.google.com/file/d/1INlOTyPtnCJgm0hBVvtRLu5a0itk8bjs/view), and put the archive into `PMAML/datasets/omniglot`;
 3. Running the program with `--download`;
 
-## Citation
+
+### Citation
 If our code is helpful for your research, please cite our paper:
 ```
 @inproceedings{Zhang2020PMAML,
@@ -63,7 +63,7 @@ If our code is helpful for your research, please cite our paper:
 }
 ```
 
-## Acknowledgement
+### Acknowledgement
 Inspired by [Torchmeta](https://github.com/tristandeleu/pytorch-meta).
 
 
