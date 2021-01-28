@@ -1,9 +1,10 @@
 # Knowledge Distillation for Model-Agnostic Meta-Learning
 PyTorch implementation of the paper:
 * **Title:** Knowledge Distillation for Model-Agnostic Meta-Learning
-* **Author:** [Min Zhang](https://remimz.github.io/){:target="_blank"}, Donglin Wang, Sibo Gai
+* **Author:** [Min Zhang](https://remimz.github.io/), Donglin Wang, Sibo Gai
 * **Conference:** [24th European Conference on Artificial Intelligence (ECAI2020)](http://ecai2020.eu/)
-* **More details:** [[pdf](https://ecai2020.eu/papers/1264_paper.pdf)]&[[homepage]()]
+* **More details:** [pdf](https://ecai2020.eu/papers/1264_paper.pdf)
+
 ![PMAML-framwork](./docs/PMAML-framwork.png)
 
 #### Requirements
@@ -51,7 +52,7 @@ You can download datasets automatically by adding `--download` when running the 
 3. Running the program with `--download`;
 
 
-### Citation
+## Citation
 If our code is helpful for your research, please cite our paper:
 ```
 @inproceedings{Zhang2020PMAML,
@@ -63,7 +64,7 @@ If our code is helpful for your research, please cite our paper:
 }
 ```
 
-### Acknowledgement
+## Acknowledgement
 Inspired by [Torchmeta](https://github.com/tristandeleu/pytorch-meta).
 
 
